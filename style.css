@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+/* body */
+body {
+    font-family: "Raleway", sans-serif;;
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+
+/* form */
+form {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* label */
+label {
+    display: block;
+    margin-top:15px ;
+    font-weight: bold;
+    color: #333;
+}
+
+/* input */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.radio-group{
+    margin-top: 5px;
+}
+
+.radio-group label{
+    display: inline-block;
+    font-weight: normal;
+}
+
+/* submit */
+input[type = "submit"],
+button{
+    margin-top: 20px;
+    padding: 30px;
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover,
+button:hover {
+     background-color: #45a049;
+}
+
+
